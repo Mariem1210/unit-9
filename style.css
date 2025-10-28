@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(headerbg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    padding: 20px 0px;
+}
+.contanir{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+.main-nav{
+    float: right;
+}
+.main-nav ul{
+    margin-top: 10px;
+}
+
+
+
+.main-nav ul li{
+    display: inline;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main-nav a:hover{
+    color: green;
+}
+.contant{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+.contant h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+
+
+}
+hr{
+    border: solid #61c2f7 1px;
+    width: 50%;
+    margin: 20px auto;
+}
+p{
+    text-align: center;
+    font-family: Serif;
+    font-size: 18px;
+    color:white;
+    margin: 25px 25%;
+    line-height: 1.5;
+}
+.contant a{
+    text-decoration: none;
+    color: white;
+    font-family: Serif;
+    font-weight: bold;
+    border: #61c2f7 1px solid;
+    padding: 8px 5px;
+    letter-spacing: 2px;
+}
+.design{
+    background:#f2f2f2;
+    padding: 60px 0;
+    text-align: center;
+}
+.design h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+.design p{
+    color: gray;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.icons {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 90%; 
+  margin: 40px auto; 
+}
+
+.box {
+  width: 31%;
+  text-align: center; 
+  background: white; 
+  padding: 20px;
+
+}
+
+.box img {
+  width: 80px; 
+  margin-bottom: 15px; 
+}
+
+.box h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.box p {
+  color: gray;
+  font-size: 14px;
+}
+.photo{
+    background: #f2f2f2;
+    padding: 60px 0 ;
+    text-align: center;
+}
+.photo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.photo h5{
+    color: gray;
+    padding: 10px 0;
+
+}
+.form{
+        background: url("contactbg.png") no-repeat center center/cover; 
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    height: 600px;
+    position: relative;
+
+}
+.form{
+    text-align: center;
+    margin-top: 100px;
+}
+.form h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+.form p{
+    color: gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.form1{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+.form1 input[type=text],input[type=email],textarea{
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    display: block;
+
+}
+span{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    float: left;
+}
+input[type=checkbox]{
+    margin-right: 20px;
+}
+input[type=submit]{
+    background: transparent;
+    padding: 10px 30px;
+    color:white;
+    font-size: 16px;
+    border: solid 1px #61c2f7;
+}
+
+
+
+
